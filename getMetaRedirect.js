@@ -14,5 +14,5 @@ module.exports = function getMetaRedirect(toPath) {
     }
   }
 
-  return `<meta http-equiv="refresh" content="0; URL='${url}'" />`;
+  return `<script> window.location = "${url}" + window.location.search + window.location.hash</script>`;
 };
