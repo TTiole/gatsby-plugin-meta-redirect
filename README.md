@@ -3,7 +3,7 @@
 
 # gatsby-plugin-meta-redirect
 
-Generates meta redirect html files for redirecting on any static file host.
+Generates meta redirect html files for redirecting on any static file host. This fork ensures the redirect persists query parameters and the hash given they exist.
 
 ## Install
 
